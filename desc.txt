@@ -1,0 +1,34 @@
+This is an overveiw on the project and it's functinality. 
+Features with "#" symbol are not to be made in the first version, but in updates.
+
+
+There need to be 2 main sections, with a header on top
+
+1. header
+header needs to contain a name/logo and buttons: Download as pdf, reset, change resume style
+
+2. forms section
+this section need to contain various forms, #preferably as a dropdown menu# with categories:
+- Personal information with a summary
+- hard and soft skills (#maybe i could make a multiple choice menu for hard coding skills and add them to resume as graphics e.g. HTML, CSS, MongoDB etc. )
+- education and certificates
+- work experience
+- projects
+- #photo
+
+forms should be prefilled with made up info
+
+3. CV section
+Needs to display the cv. It should be prefilled with content and update realtime, when changing forms.
+#If a given catrgory is left empty it should not display in resume, and it should still align properly without leaving blank space
+
+#add a button with a choice to have a modern or classic looking resume.
+
+
+Things to adress:
+
+0. How to link different styles to whole page and the resume itself (2 css files or a class)
+1. HTML forms and collectiong data from them
+2. displaying the data in the resume
+3. Resetting everything with a button
+4. Downloading an element from your page as a pdf
