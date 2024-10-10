@@ -5,7 +5,7 @@ Features with "#" symbol are not to be made in the first version, but in updates
 There need to be 2 main sections, with a header on top
 
 1. header
-header needs to contain a name/logo and buttons: Download as pdf, reset, change resume style
+header needs to contain a name/logo and buttons: Download as pdf, reset, *change resume style
 
 2. forms section
 this section need to contain various forms, #preferably as a dropdown menu# with categories:

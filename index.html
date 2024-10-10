@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume maker</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+    
+    <header>
+        <h1 class="logo">Make your own CV!</h1>
+        <div class="header-buttons">
+            <button id="download-button">Download as PDF</button>
+            <button id="reset-button">Reset all info</button>
+        </div>
+
+    </header>
+
+    <section class="left-forms">
+        <div class="info-box">
+            <h1>Personal info</h1>
+            <label for="name">Name: </label>
+            <input id="name" class="name-input" type="text" placeholder="Jan">
+
+            <label for="surname">Surname: </label>
+            <input id="surname" class="surname-input" type="text" placeholder="Kowalski">
+            
+            <label for="adress">Adress: </label>
+            <input id="adress" class="adress-input" type="text" placeholder="Plac Politechniki 1 Warszawa PL">
+            <label for="remote-work-check">Want to work remote:</label>
+            <input type="checkbox" id="remote-work-check" >
+
+            <label for="phone">Phone nubmer: </label>
+            <input id="phone" class="phone-input" type="tel" placeholder="+48 123-123-123">
+            
+            <label for="eail">Email: </label>
+            <input id="email" class="email-input" type="email" placeholder="jan.kowalski@gmail.com">
+            
+            <label for="desc">Desctiption: </label>
+            <textarea name="desc-input" id="desc"></textarea>
+        </div>
+
+        <div class="skills">
+            <h1>Hard and soft skills</h1>
+        </div>
+
+    </section>
+
+</body>
+</html>
